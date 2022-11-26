@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+
+body {
+  background-color:#ff8c00;
+  
+}
+body .Etch{
+  display: flex;
+  justify-content: center;
+}
+.Etch h1 {
+    margin: 0; 
+}
+.Etch {
+justify-content: center;
+ font-family: 'Silkscreen', cursive;
+ font-size: 2em;
+}
+#gridSize {
+  
+  
+  display: flex;
+  gap: 1em;
+ justify-content: center;
+  width: 100%;
+}
+.grid1,.grid2,.grid3{
+  width: 10%;
+ height: 3em;
+}
+
+#container {
+  margin-top: 4em;
+
+  height: 85vh;
+  width: 100%;
+}
+
+.rows {
+ 
+    display: flex;
+    justify-content: center; 
+
+}
+.columns {
+  
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    height: 30px;
+    width: 30px
+}
+
+.paintedCell {
+  background: green;
+}
